@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div> 
+            <label>Nome:</label><br>
+            <input type="text" name="nome" placeholder="Digite seu nome">
+        </div><br>
+        <div>
+            <label>Email:</label><br>
+            <input type="email" name="email" placeholder="Digite seu email">
+        </div><br>
+        <div>
+            <label>O que te motivou a participar do evento ?</label><br>
+            <textarea name="motivo" placeholder="Descreva aqui..."></textarea>
+        </div><br>
+        <div>
+            <label>Selecione seu módulo</label><br>
+            <select name="modulo">
+                <option value="modulo1">Modulo 1</option>
+                <option value="modulo2">Modulo 2</option>
+            </select>
+        </div><br>
+        <div>
+            <div><label for="senha">Digite sua senha</label><br><input id="senha" type="password" required name="senha" placeholder="Digita sua senha aqui..."></div><br>
+            <div><label for="confirm_senha">Confirma a senha</label><br><input id="confirm_senha" required type="password" name="confirma" placeholder="Repita a senha..." ></div><br>
+        </div><br>
+
+        <div>
+            <label>Deseja receber novidades em seu email? </label>
+            <br>
+            <label for="sim">Sim</label>
+            <input type="radio" required id="sim" name="resp_email" value="sim">
+            <label for="nao">Não</lrequiredabel>
+            <input type="radio" required id="nao" name="resp_email" value="nao">
+        </div><br>
+
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+
+    </form>
+</body>
+</html>
